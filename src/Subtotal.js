@@ -23,6 +23,7 @@ function Subtotal() {
         thousandSeparator={true}
         prefix={"Ksh"}
       />
+      <button>Proceed to Checkout</button>
     </div>
   );
 }
