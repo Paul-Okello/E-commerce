@@ -10,6 +10,16 @@ function Home() {
           alt=""
           className="home__image"
         />
+        <div className="home__row">
+          {/* Product */}
+          {/* Product */}
+        </div>
+        <div className="home__row">
+          {/* Product */}
+          {/* Product */}
+          {/* Product */}
+        </div>
+        <div className="home__row">{/* Product */}</div>
       </div>
     </div>
   );
