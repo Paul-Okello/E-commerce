@@ -12,8 +12,6 @@ function App() {
   const [{}, dispatch] = useStateValue();
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
-      console.log("User: ", authUser);
-
       if (authUser) {
         //just logged in / was ogged in
         dispatch({
