@@ -7,61 +7,59 @@ function Home() {
     <div className="home">
       <div className="home__container">
         <img
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220.jpg"
-          alt=""
           className="home__image"
+          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          alt=""
         />
+
         <div className="home__row">
           <Product
-            id="54321"
-            title="The lean startup"
-            price={29.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/41+e3refnZL.jpg"
-            rating={4}
+            id="12321341"
+            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+            price={11.96}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
           />
           <Product
-            id="93145"
-            title="
-            Amazon Echo Dot (3rd Generation) - Heather Gray"
-            price={56.99}
-            image="https://target.scene7.com/is/image/Target/GUEST_818dbba2-32e3-4592-976a-07b02ab5b7f8?wid=488&hei=488&fmt=pjpeg"
-            rating={5}
+            id="49538094"
+            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+            price={239.0}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
           />
         </div>
+
         <div className="home__row">
           <Product
-            id="23605"
-            title="
-            Amazon Echo Dot (3rd Generation) - Heather Gray"
-            price={56.99}
-            image="https://target.scene7.com/is/image/Target/GUEST_818dbba2-32e3-4592-976a-07b02ab5b7f8?wid=488&hei=488&fmt=pjpeg"
-            rating={5}
-          />
-          <Product
-            id="23105"
-            title="
-            Amazon Echo Dot (3rd Generation) - Heather Gray"
-            price={56.99}
-            image="https://target.scene7.com/is/image/Target/GUEST_818dbba2-32e3-4592-976a-07b02ab5b7f8?wid=488&hei=488&fmt=pjpeg"
-            rating={2}
-          />
-          <Product
-            id="28145"
-            title="
-            Amazon Echo Dot (3rd Generation) - Heather Gray"
-            price={56.99}
-            image="https://target.scene7.com/is/image/Target/GUEST_818dbba2-32e3-4592-976a-07b02ab5b7f8?wid=488&hei=488&fmt=pjpeg"
-            rating={4}
-          />
-        </div>
-        <div className="home__row">
-          <Product
-            id="63845"
-            title="
-            Samsung UA65RU7300KXKE - 65 - Curved 4K UHD Smart"
-            price={56.99}
-            image="https://images.yaoota.com/lPK-8zLahgaUrTqkQEfHo11cqpo=/trim/yaootaweb-production-ke/media/crawledproductimages/c8910abf33ff1f47b8eee7a0e7a119647eb03daa.jpg"
+            id="4903850"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+            price={199.99}
             rating={3}
+            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+          />
+          <Product
+            id="23445930"
+            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+            price={98.99}
+            rating={5}
+            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+          />
+          <Product
+            id="3254354345"
+            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+            price={598.99}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+          />
+        </div>
+
+        <div className="home__row">
+          <Product
+            id="90829332"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            price={1094.98}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
       </div>
