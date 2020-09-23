@@ -17,7 +17,7 @@ app.post("/payments/create", async (request, response) => {
   console.log("Payment Request Received BOOM!! for this amount >>>", total);
   const paymentIntent = await stripe.paymentIntents.create({
     amount: total, // subunits of the currency
-    currency: "Ksh",
+    currency: "usd",
   });
   //OK- Created
   response.status(201).send({
@@ -27,4 +27,4 @@ app.post("/payments/create", async (request, response) => {
 // Listen command
 exports.api = functions.https.onRequest(app);
 
-//http://localhost:5001/mahinlo-cfdf5/us-central1/api
+//http://localhost:5001/e-commerce-26858/us-central1/api
