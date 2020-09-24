@@ -22,27 +22,27 @@ function Home() {
           />
           <Product
             id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+            title="PS5 and PS5 Digital Edition deliver lightning-fast loading, deeper immersion, and an all-new generation of incredible PlayStation games."
+            price={499.0}
+            rating={5}
+            image="https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-06-11-23-50/ps5-exclusive-first-party-confirmed-games-6300-1591915809942.jpg/EG11/thumbnail/750x422/format/jpg/quality/60"
           />
         </div>
 
         <div className="home__row">
           <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={199.99}
-            rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+            title="Xbox Series X Console"
+            price={499.99}
+            rating={4}
+            image="https://azcd.harveynorman.com.au/media/catalog/product/x/b/xbox_series_x_2.jpg"
           />
           <Product
             id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+            title="Rasta Bubble Bong"
             price={98.99}
             rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+            image="https://eurogrow.es/5460-large_default/bong-rasta-20-cm.jpg"
           />
           <Product
             id="3254354345"
