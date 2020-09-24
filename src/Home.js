@@ -15,10 +15,10 @@ function Home() {
         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
+            title="Nike x Cactus Jack Air Max 270 Cactus Trails"
+            price={150.96}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+            image="https://sneakerheadsromania.ro/wp-content/uploads/2020/06/nike-x-cactus-jack-air-max-270-cactus-trails_5ed8d4382a7f1.jpeg"
           />
           <Product
             id="49538094"
