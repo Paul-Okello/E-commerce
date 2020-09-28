@@ -39,10 +39,10 @@ function Home() {
           />
           <Product
             id="23445930"
-            title="Rasta Bubble Bong"
-            price={98.99}
+            title="Macbook pro"
+            price={4999.99}
             rating={5}
-            image="https://eurogrow.es/5460-large_default/bong-rasta-20-cm.jpg"
+            image="https://www.apple.com/content/dam/newsroom/images/product/mac/standard/Apple_16-inch-MacBook-Pro_111319_big.jpg/_jcr_content/renditions/large.jpg"
           />
           <Product
             id="3254354345"

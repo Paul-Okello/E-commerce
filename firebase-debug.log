@@ -1,0 +1,36 @@
+[debug] [2020-09-28T05:56:35.878Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T05:56:35.881Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2020-09-28T05:56:35.882Z] CLI Version:   8.10.0
+[debug] [2020-09-28T05:56:35.882Z] Platform:      linux
+[debug] [2020-09-28T05:56:35.882Z] Node Version:  v12.18.4
+[debug] [2020-09-28T05:56:35.883Z] Time:          Mon Sep 28 2020 08:56:35 GMT+0300 (East Africa Time)
+[debug] [2020-09-28T05:56:35.883Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T05:56:35.883Z] 
+[debug] [2020-09-28T05:56:35.893Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-28T05:56:35.894Z] > authorizing via signed-in user
+[debug] [2020-09-28T05:56:35.894Z] [iam] checking project e-commerce-26858 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-28T05:56:35.899Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-26858:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-09-28T05:56:37.595Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 28 Sep 2020 05:56:37 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1342","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-28T05:56:37.601Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-26858  
+ 
+[debug] [2020-09-28T05:56:38.358Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 28 Sep 2020 05:56:38 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'e-commerce-26858'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-09-28T05:56:41.924Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/e-commerce-26858/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-09-28T05:56:44.046Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 28 Sep 2020 05:56:43 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[e-commerce-26858]: beginning deploy... 
+[info] i  hosting[e-commerce-26858]: found 18 files in build 
+[debug] [2020-09-28T05:56:44.077Z] [hosting] hash cache [YnVpbGQ] stored for 18 files
+[debug] [2020-09-28T05:56:44.078Z] [hosting][hash queue][FINAL] {"max":5,"min":1,"avg":1,"active":0,"complete":18,"success":18,"errored":0,"retried":0,"total":18,"elapsed":8}
+[debug] [2020-09-28T05:56:44.079Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/e-commerce-26858/versions/0fb860a8863e60d5:populateFiles  
+ <request body omitted>
+[debug] [2020-09-28T05:56:54.629Z] [populateQueue] Retrying task index 0
+[debug] [2020-09-28T05:56:54.631Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/e-commerce-26858/versions/0fb860a8863e60d5:populateFiles  
+ <request body omitted>
+[debug] [2020-09-28T05:57:05.557Z] [populateQueue] Retrying task index 0
+[debug] [2020-09-28T05:57:05.559Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/e-commerce-26858/versions/0fb860a8863e60d5:populateFiles  
+ <request body omitted>

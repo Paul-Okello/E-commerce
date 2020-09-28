@@ -1,0 +1,9 @@
+.app {
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 600px) {
+  .app {
+    width: 98%;
+  }
+}

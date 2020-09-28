@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hosting URL: https://e-commerce-26858.web.app/
 
 ## Available Scripts
 
